@@ -1,0 +1,67 @@
+.body{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to right, rgb(119, 170, 228), rgb(16, 37, 204));
+    position: relative;
+}
+img
+{
+    width: 40%;
+    height: 30%;
+}
+.login
+{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+width: 30%;
+height: 50%;
+background-color: white;
+border-radius: 20px;
+text-align: center;
+}
+label{
+    display: inline-block;
+    width: 100px;
+    font-weight: bold;  
+}
+input{
+    border-radius:20px ;
+    
+    padding: 7px;
+}
+button{
+    padding: 7px 15px;
+    border-radius: 20px;
+    margin-top: 4%;
+    border: none;
+    font-weight: bold;
+
+
+}
+#one
+{
+    margin-right: 10%;
+    background-color: rgb(230, 48, 48);
+}
+#two{
+    background-color: blue;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    text-align: start;
+    
+    
+}
+#mark
+{
+    color: red;
+}
+h4{
+    margin-left: 10px;
+    margin-top: 10px;
+
+
+}
